@@ -17,8 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from cocktail import views
+from django.shortcuts import render
+
+def main(request):
+    return render(request, 'index.html')
 
 urlpatterns = [
+    path('', main),
     path('admin/', admin.site.urls),
     path('api/cocktails/', views.getAllCocktails)
 ]
