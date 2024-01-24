@@ -1,8 +1,10 @@
+## Cocktail API
+
 `python -m venv cocktail-venv`
 
 `cocktail-venv\Scripts\activate`
 
-`ha megjelenik a (cocktail-venv) a konzolon akkor működött`
+ha megjelenik a (cocktail-venv) a konzolon akkor működött
 
 `git clone https://github.com/Cyri0/cocktail-api.git`
 
