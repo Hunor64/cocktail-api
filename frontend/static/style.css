@@ -1,7 +1,49 @@
-:root{
+:root {
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-color: lightgreen;
 
 }
 
-body{
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;
+    position: absolute;  
+}
+.div{
+    text-align: center;
+}
+
+.cocktail-glass {
+    width: 150px;
+    height: 370px;
+    margin: auto;
+    background-color: lightblue;
+    align-self: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.insert{
+    width: 100%;
     margin: 0;
 }
